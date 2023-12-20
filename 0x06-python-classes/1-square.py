@@ -6,6 +6,8 @@ class Square():
     def __init__(self, size=0):
         """__init__ method.
 
-        Args: size - length of a side of the square.
+        Args:
+            size (int): size of square
+
         """
         self.__size = size
