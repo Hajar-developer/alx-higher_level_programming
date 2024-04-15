@@ -1,7 +1,7 @@
 
 #!/usr/bin/python3
-"""
-Creates the State "California" with the City "San Francisco" from a DB
+"""script that add the State “California” with the City “San Francisco”
+   from a given database
 """
 import sys
 from relationship_state import Base, State
@@ -26,4 +26,3 @@ if __name__ == '__main__':
     session.add(newState)
     session.add(newCity)
     session.commit()
-
