@@ -1,3 +1,3 @@
 #!/bin/bash
-# Send GET request to URL and display body of response only for status code 200
-curl -s -o /dev/null -w "%{http_code}" "$URL"
+# script that takes in a URL, sends a GET request and dsiplays body of the response
+curl -sL "$1"
